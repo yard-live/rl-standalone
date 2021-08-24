@@ -25,6 +25,8 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "dependencies": {
-    "aws-amplify": "^4.2.3"
+    "aws-amplify": "^4.2.3",
+    "aws-sdk": "^2.974.0",
+    "node-fetch": "^2.6.1"
   }
 }
