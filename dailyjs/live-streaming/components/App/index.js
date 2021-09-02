@@ -1,1 +1,1 @@
-export { AppWithLiveStreaming as default } from './App';
+export { AppWithLiveStreamingAndChat as default } from './App';
