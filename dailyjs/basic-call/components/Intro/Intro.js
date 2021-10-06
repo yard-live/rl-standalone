@@ -43,10 +43,10 @@ export const Intro = ({
             Failed to obtain token <p>{error}</p>
           </Well>
         )}
-        <Field label="Enter room to join">
+        <Field label="Enter room name to join">
           <TextInput
             type="text"
-            prefix={`${domain}.daily.co/`}
+            prefix="yard.live/"
             placeholder="Room name"
             defaultValue={roomName}
             onChange={(e) => setRoomName(e.target.value)}
